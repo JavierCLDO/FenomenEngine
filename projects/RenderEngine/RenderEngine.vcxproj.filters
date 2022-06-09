@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{e11d70f1-95e6-4477-939c-799454f34971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Light">
+      <UniqueIdentifier>{b33d4a6a-4799-49a1-9af7-fda891c4c9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{b00be962-03b2-4c36-8b7b-8de199df9201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Light">
+      <UniqueIdentifier>{8b4331aa-4e64-42f4-98d0-e42069dac34f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\RenderEngine\framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\renderEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\meshObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\renderObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\directionalLightObject.h">
+      <Filter>Header Files\Objects\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\lightObject.h">
+      <Filter>Header Files\Objects\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\pointLightObject.h">
+      <Filter>Header Files\Objects\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\spotLightObject.h">
+      <Filter>Header Files\Objects\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RenderEngine\camera.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\RenderEngine\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\renderEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\meshObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\renderObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\directionalLightObject.cpp">
+      <Filter>Source Files\Objects\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\lightObject.cpp">
+      <Filter>Source Files\Objects\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\pointLightObject.cpp">
+      <Filter>Source Files\Objects\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\spotLightObject.cpp">
+      <Filter>Source Files\Objects\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\camera.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
